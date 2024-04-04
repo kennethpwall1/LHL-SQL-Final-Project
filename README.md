@@ -1,7 +1,7 @@
                    # Final-Project-Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
-To take an existing data set and perform exploratory analysis in postgreSQL and pgAdmin to answer questions provided and provide insights regarding the ecommerce dataset
+To take an existing data set and perform exploratory analysis in postgreSQL and pgAdmin to answer questions provided and provide insights regarding the ecommerce dataset.
 
 ## Process
 ### Step1 - Reviewing Data in .csv Format and Creating the Database
@@ -9,7 +9,7 @@ I initially scanned the column data to see the information and what data types w
 Mentor had suggested to use the most general datatype (text or numeric) as we can always cast later on.
 
 ### Step2 - Cleaning Data
-The steps outlined in the process can be found in **cleaning_data.md**
+The steps outlined in the process can be found in **cleaning_data.md**.
 
 ### Step3 - Starting with Questions
 5 questions were asked for this project, which are included with the answers and SQL queries in **starting_with_questions.md**. Please see the documentation for answers provided and any commentary noted.
@@ -30,9 +30,9 @@ Using the readme as a guide with the results from the queries we were to give a 
 ### Starting with questions - Question 1 - Which cities and countries have the highest level of transaction revenues 
 
 
-country	        total_revenue 
-United States	13154.17
-Israel	        602
+|country|total_revenue|
+|United States|	13154.17|
+|Israel|        602|
 Australia	    358
 Canada	        150.15
 Switzerland	    16.99
