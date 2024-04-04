@@ -49,7 +49,6 @@ City
 |Salem	                        |7.545454545|
 |New York	                    |6.895348837|
 |Chicago	                     |   6.194117647|
-Country
 
 |country|	        avg_units_sold|
 |-------|-------------------------|
@@ -61,62 +60,68 @@ Country
 
 ### Starting with questions - Question 3 - s there any pattern in the types (product categories) of products ordered from visitors in each city and country?
 
-country	    city	                2productcategory	                category_count
-(not set)	(not set)	            Home/Apparel/Men's/	                1
-(not set)	(not set)	            Home/Apparel/Men's/Men's-Outerwear/	22
-(not set)	(not set)	             Home/Bags/	                        12
-(not set)	(not set)	            Home/Shop by Brand/YouTube/	        12
-Albania	    not available in demo dataset	Home/Apparel/Men's/	        23
-Argentina	Buenos Aires	            Home/Bags/Backpacks/	        96
+|country|	    city|	                2productcategory|	                category_count|
+|-------|-----------|-----------------------------------|---------------------------------|
+|(not set)|	(not set)|	            Home/Apparel/Men's/	  |              1|
+|(not set)|	(not set)|	            Home/Apparel/Men's/Men's-Outerwear/|	22|
+|(not set)|	(not set)|	             Home/Bags/	|                        12|
+|(not set)|	(not set)|	            Home/Shop by Brand/YouTube/	|        12|
+|Albania|	    not available in demo dataset|	Home/Apparel/Men's/	|        23|
+|Argentina|	Buenos Aires|	            Home/Bags/Backpacks/	    |    96|
 
 Further exploration noted that almost all transactions were purchased by the USA and most products were either apparel or youtube related.
 
 ### Starting with questions - Question 4 - What is the top-selling product from each city/country? 
-country	        city	                        sku	            top_selling
-United States	not available in demo dataset	GGOEAHPJ074410	188
-United States	Charlotte	                    GGOEGBCR024399	167
-United States	not available in demo dataset	GGOEAHPA004110	156
-United States	not available in demo dataset	GGOEGAAX0231	143
-United States	not available in demo dataset	GGOEGAAX0098	143
-United States	not available in demo dataset	GGOEGHPB071610	96
+|country|	        city|	                        sku|	            top_selling|
+|-------|---------------|------------------------------|---------------------------|
+|United States|	not available in demo dataset|	GGOEAHPJ074410|	188|
+|United States|	Charlotte	                  |  GGOEGBCR024399|	167|
+|United States|	not available in demo dataset|	GGOEAHPA004110|	156|
+|United States|	not available in demo dataset|	GGOEGAAX0231|	143|
+|United States|	not available in demo dataset|	GGOEGAAX0098|	143|
+|United States|	not available in demo dataset|	GGOEGHPB071610|	96|
 
 All of the top 10 selling products were to the USA.
 
 ### Starting with questions - Question 5 - Can we summarize the impact of revenue generated from each city/country
 
-country	        city	v                        2productcategory	    sku	            avg_units_sold	top_selling_product	total_revenue
-United States	Sunnyvale	                    Housewares	            GGOEGCBQ016499	2.306818182	    88	    384999.32
-United States	not available in demo dataset	Home/Nest/Nest-USA/	    GGOENEBQ079199	1.410714286	    56	    63571
-United States	not available in demo dataset	Home/Nest/Nest-USA/	    GOENEBQ084699	1.967741935	    31	    22572
-United States	not available in demo dataset	Home/Drinkware/	GGOEYDHJ056099	        1.266666667	    15	    7228.61
-United States	Mountain View	Waze	                            GGOEWEBB082699	    1	            13	    1149.44
-United States	New York	Home/Apparel/Men's/Men's-Performance Wear/	GGOEGAAX0591	1	            12	    6065.04
+|country	|        city|	                        2productcategory|	    sku	           | avg_units_sold	|top_selling_product|	total_revenue|
+|-----------|------------|------------------------------------------|----------------------|----------------|-------------------|-------------|
+|United States|	Sunnyvale	    |                Housewares	  |          GGOEGCBQ016499|	2.306818182|	    88|	    384999.32|
+|United States|	not available in demo dataset|	Home/Nest/Nest-USA/	|    GGOENEBQ079199|	1.410714286|	    56|	    63571|
+|United States|	not available in demo dataset|	Home/Nest/Nest-USA/	 |   GOENEBQ084699|	1.967741935	   | 31|	    22572|
+|United States|	not available in demo dataset|	Home/Drinkware/	|GGOEYDHJ056099	      |  1.266666667|	    15|	    7228.61|
+|United States|	Mountain View|	Waze	|                            GGOEWEBB082699	  |  1	        |    13|	    1149.44|
+|United States|	New York|	Home/Apparel/Men's/Men's-Performance Wear/|	GGOEGAAX0591|	1	        |    12	|    6065.04|
 
 ### Starting with data - Question 1 - In the analytics table find the total number of unique visitors
-total_sessions	unique_visistors
-4301122	        120018
+|total_sessions	|unique_visistors|
+|---------------|----------------|
+|4301122	    |    120018|
 
 Out of the tables 4.3M rows only 120k were unique visists
 
 ### Starting with data - Question 2 - What are the the total number of unique visitors by channel group
 
-channelgroup	unique_visitors
-Organic Search	66333
-Direct	        21340
-Referral	    18382
-Social	        11023
-Paid Search	    3762
-Affiliates	    1469
-Display	        844
-(Other)	        2
+|channelgroup|	unique_visitors|
+|------------|-----------------|
+|Organic Search	|66333|
+|Direct	        |21340|
+|Referral	    |18382|
+|Social	        |11023|
+|Paid Search	|    3762|
+|Affiliates	    |1469|
+|Display	    |    844|
+|(Other)	    |    2|
 
 ### Starting with data - Question 3 - What was the average time users spent on the site that have purchased a product
-fullvisitorid	        avg_time_on_site
-8826538902252293768	    8901.756972
-7358671888562848931 	8369
-9919195169254003311	    8230
-3580472110818897042	    7213
-1864623622209203335	    6909
+|fullvisitorid	|        avg_time_on_site|
+|--------------|------------------------|
+|8826538902252293768|	    8901.756972|
+|7358671888562848931| 	8369|
+|9919195169254003311|	    8230|
+|3580472110818897042|	    7213|
+|1864623622209203335|	    6909|
 
 
 ## Challenges 
