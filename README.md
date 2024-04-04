@@ -34,27 +34,29 @@ Using the readme as a guide with the results from the queries we were to give a 
 |-------|--------------|
 |United States|	13154.17|
 |Israel|        602|
-Australia	    358
-Canada	        150.15
-Switzerland	    16.99
+|Australia|	    358|
+|Canada	 |       150.15|
+|Switzerland	|    16.99|
 
 ### Starting with questions - Question 2 - What is the average number of products ordered from visitors in each city and country
 City
-city	                        avg_units_sold              
-San Bruno	                     52.66666667
-not available in demo dataset	26.89726563
-Mountain View	                16.16513761
-San Jose	                    8.565217391
-Salem	                        7.545454545
-New York	                    6.895348837
-Chicago	                        6.194117647
+|city|	                        avg_units_sold|
+|----|----------------------------------------|            
+|San Bruno	                     |52.66666667|
+|not available in demo dataset	|26.89726563|
+|Mountain View	                |16.16513761|
+|San Jose	                    |8.565217391|
+|Salem	                        |7.545454545|
+|New York	                    |6.895348837|
+|Chicago	                     |   6.194117647|
 Country
 
-country	        avg_units_sold
-United States	19.24492151
-Czechia	1       5.18181818
-Mexico	        1.833333333
-Canada	        1.593406593
+|country|	        avg_units_sold|
+|-------|-------------------------|
+|United States|	19.24492151|
+|Czechia|       5.18181818|
+|Mexico	|        1.833333333|
+|Canada	|        1.593406593|
 
 
 ### Starting with questions - Question 3 - s there any pattern in the types (product categories) of products ordered from visitors in each city and country?
