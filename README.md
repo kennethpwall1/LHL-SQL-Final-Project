@@ -31,6 +31,7 @@ Using the readme as a guide with the results from the queries we were to give a 
 
 
 |country|total_revenue|
+|-------|--------------|
 |United States|	13154.17|
 |Israel|        602|
 Australia	    358
